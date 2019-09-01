@@ -23,16 +23,18 @@ public class Book {
     /**
      * 名称
      */
-    @ExcelProperty(value = "名称", index = 0)
+    @ExcelProperty("名称")
     private String name;
+
     /**
      * 发布日期
      */
-    @ExcelProperty(value = "发布日期", index = 1)
+    @ExcelProperty("发布日期")
     private Date publishTime;
+
     /**
      * 价格
      */
-    @ExcelProperty(value = "价格", index = 2)
+    @ExcelProperty("价格")
     private BigDecimal price;
 }
